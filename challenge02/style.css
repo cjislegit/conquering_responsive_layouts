@@ -28,10 +28,15 @@ body {
   max-width: 750px;
   background: #23424a;
   color: white;
-  padding: 50px 20em;
+  padding: 50px 0 50px 20em;
 }
 
 .intro-content {
   width: 50%;
   max-width: 370px;
+}
+
+.more-content {
+  padding-left: 20em;
+  max-width: 80%;
 }
