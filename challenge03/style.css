@@ -1,4 +1,41 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+}
+
+.roboto-regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.hero {
+  background-color: rgba(35, 66, 74, 1);
+  color: white;
+  padding: 150px 0 150px 120px;
+}
+
+.container {
+  width: 30%;
+}
+
+input {
+  background-color: rgba(56, 207, 217, 1);
+  color: rgba(7, 42, 45, 1);
+  border: none;
+  border-radius: 25px;
+  text-transform: uppercase;
+  padding: 1em 3em;
+  margin-top: 25px;
 }
