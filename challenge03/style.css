@@ -23,11 +23,17 @@ body {
 .hero {
   background-color: rgba(35, 66, 74, 1);
   color: white;
-  padding: 150px 0 150px 120px;
+  padding: 150px 0;
 }
 
 .container {
-  width: 30%;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.hero__text {
+  width: 75%;
 }
 
 input {
