@@ -91,3 +91,21 @@ h1 {
 .btn:focus {
   opacity: 0.75;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.main__content h2 {
+  color: #136c72;
+  width: 70%;
+}
+
+.main__content {
+  width: 60%;
+}
+
+.main__sidebar {
+  width: 30%;
+}
