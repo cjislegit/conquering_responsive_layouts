@@ -52,6 +52,7 @@ main {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  padding: 4em 0;
 }
 
 main h2 {
@@ -68,4 +69,28 @@ main p {
   width: 40%;
   text-align: start;
   font-size: 21px;
+}
+
+aside {
+  color: white;
+  display: flex;
+  padding: 6em 7em;
+  justify-content: space-around;
+}
+
+aside h2 {
+  color: #f3eed9;
+  font-size: 36px;
+}
+
+aside div {
+  width: 40%;
+}
+
+.first-aside {
+  background-color: #222c2a;
+}
+
+.second-aside {
+  background-color: #824936;
 }
