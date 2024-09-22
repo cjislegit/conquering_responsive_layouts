@@ -1,3 +1,11 @@
+:root {
+  --header-bg: #2e323f;
+  --main-bg: #3b4050;
+  --main-font: #6f737f;
+  --headline: #fff;
+  --accent: #a59678;
+}
+
 body,
 html {
   padding: 0;
