@@ -82,4 +82,6 @@ header {
 
 header .row {
   justify-content: space-between;
+  padding: 1em 1em;
+  align-content: center;
 }
