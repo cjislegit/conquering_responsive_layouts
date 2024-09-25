@@ -102,10 +102,8 @@ header .row {
 }
 
 nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  visibility: hidden;
+  height: 0;
 }
 
 .nav__link--button {
@@ -113,4 +111,11 @@ nav {
   color: var(--header-bg);
   border-radius: 10px;
   padding: 0.2em 1em;
+}
+
+.nav--visible {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
