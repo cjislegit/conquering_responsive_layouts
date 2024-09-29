@@ -13,6 +13,20 @@ html {
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(30px, 6vw, 90px);
+}
+
+p {
+  margin: 0;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -120,4 +134,26 @@ nav {
   align-items: center;
   height: auto;
   visibility: visible;
+}
+
+.button {
+  background-color: var(--accent);
+  color: white;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-color: var(--main-bg);
+  color: white;
+  padding: 2em 2em;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.hero__text {
+  margin: 1em 0 1.5em 0;
 }
