@@ -15,7 +15,8 @@ html {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
 }
 
@@ -156,4 +157,13 @@ nav {
 
 .hero__text {
   margin: 1em 0 1.5em 0;
+}
+
+.benefits {
+  background-color: var(--main-font);
+}
+
+.benefits__heading {
+  color: var(--accent);
+  font-size: clamp(1.3rem, 6vw, 1.875rem);
 }
