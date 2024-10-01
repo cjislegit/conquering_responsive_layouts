@@ -163,6 +163,11 @@ nav {
   background-color: var(--main-font);
 }
 
+.benefit {
+  text-align: center;
+  padding: 1em 2em;
+}
+
 .benefits__heading {
   color: var(--accent);
   font-size: clamp(1.3rem, 6vw, 1.875rem);
