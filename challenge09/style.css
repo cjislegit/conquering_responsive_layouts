@@ -43,6 +43,10 @@ li {
   margin-bottom: 0.5em;
 }
 
+img {
+  width: 100%;
+}
+
 .montserrat-regular {
   font-family: 'Montserrat', sans-serif;
   font-optical-sizing: auto;
@@ -170,5 +174,20 @@ nav {
 
 .benefits__heading {
   color: var(--accent);
-  font-size: clamp(1.3rem, 6vw, 1.875rem);
+  font-size: clamp(1.3em, 6vw, 1.875em);
+}
+
+.main__content {
+  margin: 2em 1.5em;
+}
+
+.main__heading {
+  color: var(--accent);
+  font-size: 2.25em;
+  font-size: clamp(1.7em, 6vw, 2.25em);
+  margin-bottom: 0.5em;
+}
+
+.main__img {
+  margin-bottom: 2em;
 }
