@@ -191,3 +191,15 @@ nav {
 .main__img {
   margin-bottom: 2em;
 }
+
+.aside_section {
+  padding-inline: 2em;
+}
+
+.aside__container {
+  background-color: var(--main-bg);
+  color: white;
+  text-align: center;
+  padding: 2em 1.5em;
+  margin-bottom: 2em;
+}
